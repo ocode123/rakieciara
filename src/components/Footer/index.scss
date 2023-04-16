@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.footer {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    padding-right: 15vh;
+
+    @media screen and (max-width:500px) {
+        flex-direction: column;
+        padding: 5vh;
+        letter-spacing: 1.5px;
+        height: auto;
+    }
+
+}
+
+.anchor-icon {
+    color: $secondary-color;
+    font-size: 35px;
+    margin: 20px;
+
+}
+
+.email {
+    padding-left: 15vh;
+    margin: 0 auto;
+    color: $secondary-color;
+    font-size: large;
+    margin-top: 4vh;
+    text-transform: uppercase;
+    line-height: .6em;
+    letter-spacing: 3.7px;
+    font-family: 'Space Mono', monospace;
+
+
+    @media screen and (max-width:500px) {
+        padding: 0%;
+
+    }
+}
