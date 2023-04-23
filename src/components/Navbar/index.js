@@ -25,14 +25,14 @@ const Navbar = () =>
   <NavLink 
     activeclassname="active"
     className="about-link"
-    to="/"> KOSMICZNE&nbsp;CV
+    to="/cv"> KOSMICZNE&nbsp;CV
   </NavLink>
   </li>
   <li>
   <NavLink
     activeclassname="active"
     className="portfolio-link"
-    to="/">PUBLIKACJE
+    to="/articles">PUBLIKACJE
   </NavLink></li>
   </ul>
 </nav>
