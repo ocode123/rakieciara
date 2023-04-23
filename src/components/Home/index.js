@@ -1,5 +1,8 @@
 import './index.scss';
 import mainPhoto from "../../assets/images/main.jpg"
+import rocket from "../../assets/images/rocket.jpg"
+import spacerover from "../../assets/images/spacerover.jpg"
+import milena from "../../assets/images/MilenaMichalska.png"
 
 const Home = () => {
     return (
@@ -9,6 +12,33 @@ const Home = () => {
                 <h3>programuję kosmosy i robię rakiety.</h3>
             </div>
             <img className="main-photo" src={mainPhoto} alt="" ></img>
+         <div className="wrapper">
+                <section className="mosaic">
+                    <div className="mosaic-wrap">
+                        <div className="item material-1">
+                            <img className="" src={milena} alt=""
+                                width="100%" height="100%" ></img>
+                        </div>
+                        <div className="item material-2">
+                            <img className="" src={spacerover} alt=""
+                                width="100%" height="100%" ></img>
+                        </div>
+                        {/* <div className="item material-3">
+         <img className="original" src={} alt="" 
+         width="100%" height="100%"></img>
+         </div> */}
+                        <div className="item material-4">
+                            <img className="" src={rocket} alt=""
+                                width="100%" height="100%" ></img>
+                        </div>
+                          {/* <div className="item material-5">
+         <img className="original" src={} alt="" 
+         width="100%" height="100%"></img>
+         </div> */}
+                    </div>
+
+                </section>
+            </div>
 
             {/* <div className='about'>
                 <p><h3>Lorem ipsum dolor sit amet.</h3> Sit cupiditate voluptatem sit rerum illum aut enim voluptas in impedit dicta.
@@ -20,6 +50,8 @@ const Home = () => {
             </div> */}
 
         </div>
+
+
     )
 }
 
