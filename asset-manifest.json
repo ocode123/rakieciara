@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rakieciara/static/css/main.d4137faf.css",
+    "main.css": "/rakieciara/static/css/main.7d449aaa.css",
     "main.js": "/rakieciara/static/js/main.962dab3f.js",
     "static/js/787.7520cfa9.chunk.js": "/rakieciara/static/js/787.7520cfa9.chunk.js",
     "static/media/MilenaMichalska.png": "/rakieciara/static/media/MilenaMichalska.4f13ff66c5e1230664d3.png",
@@ -8,12 +8,12 @@
     "static/media/spacerover.jpg": "/rakieciara/static/media/spacerover.cddf182882205eeb74cd.jpg",
     "static/media/rocket.jpg": "/rakieciara/static/media/rocket.0cb5c53a020ad8d843d9.jpg",
     "index.html": "/rakieciara/index.html",
-    "main.d4137faf.css.map": "/rakieciara/static/css/main.d4137faf.css.map",
+    "main.7d449aaa.css.map": "/rakieciara/static/css/main.7d449aaa.css.map",
     "main.962dab3f.js.map": "/rakieciara/static/js/main.962dab3f.js.map",
     "787.7520cfa9.chunk.js.map": "/rakieciara/static/js/787.7520cfa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4137faf.css",
+    "static/css/main.7d449aaa.css",
     "static/js/main.962dab3f.js"
   ]
 }
