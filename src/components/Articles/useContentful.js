@@ -3,8 +3,8 @@ import { createClient } from "contentful";
 const useContentful = () => {
   const client = createClient({
     space: "boyvsga4zsb7",
-    accessToken: "xH8_HNovQNmkrZnKt6iUowe2rqucTAIlNN_kQnWZISQ",
-    host: "preview.contentful.com"
+    accessToken: "x9uEYiEDA34y5Ej-_fTsth04nJHoj3yGdutsg1pM2as",
+    host: "cdn.contentful.com"
   });
 
   const getArticles = async () => {
