@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rakieciara/static/css/main.c681bc9f.css",
+    "main.css": "/rakieciara/static/css/main.f9585127.css",
     "main.js": "/rakieciara/static/js/main.a473d36c.js",
     "static/js/787.7520cfa9.chunk.js": "/rakieciara/static/js/787.7520cfa9.chunk.js",
     "static/media/vinyl.jpg": "/rakieciara/static/media/vinyl.adca49e828da8e8bd879.jpg",
@@ -9,12 +9,12 @@
     "static/media/game.jpg": "/rakieciara/static/media/game.5c1d68d1f14cad10ad35.jpg",
     "static/media/portrait.jpg": "/rakieciara/static/media/portrait.422a43b02111f54c0b40.jpg",
     "index.html": "/rakieciara/index.html",
-    "main.c681bc9f.css.map": "/rakieciara/static/css/main.c681bc9f.css.map",
+    "main.f9585127.css.map": "/rakieciara/static/css/main.f9585127.css.map",
     "main.a473d36c.js.map": "/rakieciara/static/js/main.a473d36c.js.map",
     "787.7520cfa9.chunk.js.map": "/rakieciara/static/js/787.7520cfa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c681bc9f.css",
+    "static/css/main.f9585127.css",
     "static/js/main.a473d36c.js"
   ]
 }
