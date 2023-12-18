@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .main-photo {
-  max-width: 55%;
+  max-width: 60vw;
   margin-top: -3vh;
   @media screen and (max-width: 500px) {
     max-width: 95%;
@@ -74,7 +74,7 @@
 .about {
   background: $text-bg-color;
   padding: 100px;
-  max-width: 70%;
+  max-width: 60vw;
   max-height: 70vh;
   margin: 0px auto;
   color: black;
@@ -93,13 +93,21 @@
 .grid > div {
   flex: 1 1 500px;
 }
+p{
+  padding-top: 15px;
+  max-width: 25vw;
+  @media screen and (max-width: 500px) {
+    margin: 0 auto;
+    max-width: 60vw;
+  }
+}
 
 .wrapper {
   display: block;
   position: relative;
   right: 5%;
   top: 0;
-  width: 100%;
+  max-width: 55%;
   height: 100%;
   padding-top: 20%;
   margin-bottom: 20%;
@@ -108,14 +116,14 @@
     margin-top: -40vh;
     max-width: 95%;
     left: 25vw;
-    margin-bottom: 50vh;
+    margin-bottom: 20vh;
   }
 }
 
 .mosaic {
+  max-width: 55%;
   position: relative;
   z-index: 1;
-  width: 100vw;
   height: 100vh;
 
   @media (max-width: 500px) {
@@ -128,18 +136,18 @@
 .mosaic-wrap {
   position: relative;
   z-index: 7;
-  width: 50vw;
+  width: 45vw;
   height: 70vh;
   top: 50%;
-  left: 30%;
+  left: 55vw;
   margin: 0 auto;
   transform: translate(-50%, -50%);
 
   @media (max-width: 500px) {
     width: 65vw;
     height: 50vh;
-    top: 25%;
-    left: 35vw;
+    top: 15%;
+    left: 45vw;
   }
 
   .item {
@@ -186,7 +194,7 @@
         width: 50%;
       }
     }}
-    
+
 }
 
 @keyframes BorderRadius {
@@ -224,6 +232,7 @@ body {
   z-index: 5;
   background: $text-bg-color;
   margin-left: 20vw;
+  margin-right: -25vw;
   border-radius: 50% 70% 70% 30% / 70% 30% 70% 70%;
   animation-name: BorderRadius;
   animation-duration: 20s;

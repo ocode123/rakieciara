@@ -8,6 +8,7 @@
     list-style: none;
     display: flex;
     padding-right: 15vh;
+    color: $secondary-color;
 
     @media screen and (max-width:500px) {
         flex-direction: column;
