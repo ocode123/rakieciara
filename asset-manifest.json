@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/rakieciara/static/css/main.36882dd3.css",
-    "main.js": "/rakieciara/static/js/main.a2221819.js",
+    "main.css": "/rakieciara/static/css/main.eeda2949.css",
+    "main.js": "/rakieciara/static/js/main.a473d36c.js",
     "static/js/787.7520cfa9.chunk.js": "/rakieciara/static/js/787.7520cfa9.chunk.js",
-    "static/media/MilenaMichalska.png": "/rakieciara/static/media/MilenaMichalska.4f13ff66c5e1230664d3.png",
-    "static/media/main.jpg": "/rakieciara/static/media/main.63345de17bb12e824b12.jpg",
-    "static/media/spacerover.jpg": "/rakieciara/static/media/spacerover.cddf182882205eeb74cd.jpg",
-    "static/media/rocket.jpg": "/rakieciara/static/media/rocket.0cb5c53a020ad8d843d9.jpg",
+    "static/media/vinyl.jpg": "/rakieciara/static/media/vinyl.adca49e828da8e8bd879.jpg",
+    "static/media/main.jpg": "/rakieciara/static/media/main.a8669dfc61d2906f3fc0.jpg",
+    "static/media/smile.jpg": "/rakieciara/static/media/smile.b443bd9de8bfbdc3830d.jpg",
+    "static/media/game.jpg": "/rakieciara/static/media/game.5c1d68d1f14cad10ad35.jpg",
+    "static/media/portrait.jpg": "/rakieciara/static/media/portrait.422a43b02111f54c0b40.jpg",
     "index.html": "/rakieciara/index.html",
-    "main.36882dd3.css.map": "/rakieciara/static/css/main.36882dd3.css.map",
-    "main.a2221819.js.map": "/rakieciara/static/js/main.a2221819.js.map",
+    "main.eeda2949.css.map": "/rakieciara/static/css/main.eeda2949.css.map",
+    "main.a473d36c.js.map": "/rakieciara/static/js/main.a473d36c.js.map",
     "787.7520cfa9.chunk.js.map": "/rakieciara/static/js/787.7520cfa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36882dd3.css",
-    "static/js/main.a2221819.js"
+    "static/css/main.eeda2949.css",
+    "static/js/main.a473d36c.js"
   ]
 }
