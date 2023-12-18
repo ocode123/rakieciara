@@ -1,8 +1,9 @@
 import './index.scss';
 import mainPhoto from "../../assets/images/main.jpg"
-import rocket from "../../assets/images/rocket.jpg"
-import spacerover from "../../assets/images/spacerover.jpg"
-import milena from "../../assets/images/MilenaMichalska.png"
+import portrait from "../../assets/images/portrait.jpg"
+import vinyl from "../../assets/images/vinyl.jpg"
+import smile from "../../assets/images/smile.jpg"
+import game from "../../assets/images/game.jpg"
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
             <div className="section">
                 <div className="about">
                     <div class="grid">
-                        <div><img className="portrait" src={milena} alt=""
+                        <div><img className="portrait" src={portrait} alt=""
                         ></img></div>
                         <div className='about__section'> <p><h3 className="title">O Mnie</h3>
                             Lorem ipsum dolor sit amet. Sit cupiditate voluptatem sit rerum illum aut enim voluptas in impedit dicta.
@@ -28,42 +29,28 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
             <div className="wrapper">
                 <div className="bubblePhoto">
                     <section className="mosaic">
                         <div className="mosaic-wrap">
                             <div className="item material-1">
-                                <img className="" src={milena} alt=""
+                                <img className="" src={game} alt=""
                                     width="100%" height="100%" ></img>
                             </div>
                             <div className="item material-2">
-                                <img className="" src={spacerover} alt=""
+                                <img className="" src={vinyl} alt=""
                                     width="100%" height="100%" ></img>
                             </div>
-                            {/* <div className="item material-3">
-         <img className="original" src={} alt="" 
-         width="100%" height="100%"></img>
-         </div> */}
-                            <div className="item material-4">
-                                <img className="" src={rocket} alt=""
+                            <div className="item material-3">
+                                <img className="" src={smile} alt=""
                                     width="100%" height="100%" ></img>
                             </div>
-                            {/* <div className="item material-5">
-         <img className="original" src={} alt="" 
-         width="100%" height="100%"></img>
-         </div> */}
                         </div>
 
                     </section>
                 </div>
             </div>
-
-
-
         </div>
-
-
     )
 }
 

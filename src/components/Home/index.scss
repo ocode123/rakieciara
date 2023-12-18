@@ -1,14 +1,15 @@
 @import "../../App.scss";
 
 .main-photo {
-  max-width: 80%;
-
+  max-width: 55%;
+  margin-top: -3vh;
   @media screen and (max-width: 500px) {
     max-width: 95%;
   }
 }
 
 .title {
+  margin-top: -13vh;
   font-family: "Space Mono", monospace;
   padding-bottom: 20px;
 
@@ -17,14 +18,17 @@
 
     @media screen and (max-width: 500px) {
       font-size: xx-large;
+      margin-top: -5vh;
+
     }
   }
 
   h3 {
     font-size: 55px;
-
+    margin-top: -3vh;
     @media screen and (max-width: 500px) {
       font-size: 25px;
+      margin-bottom: 5vh;
     }
   }
 
@@ -37,9 +41,10 @@
 
 .portrait {
   width: auto;
-  height: 25%;
+  height: 75%;
   @media (max-width: 500px) {
     height: 50vh;
+    margin-top: -13vh;
   }
 }
 
@@ -171,13 +176,6 @@
 
     &.material-3 {
       z-index: 1;
-      width: 25%;
-      padding-bottom: 25%;
-      transform: translate3d(-160%, -50%, 0);
-    }
-
-    &.material-4 {
-      z-index: 1;
       width: 50%;
       height: auto;
       margin-top: -50%;
@@ -187,15 +185,8 @@
         margin-top: -35%;
         width: 50%;
       }
-    }
-
-    &.material-5 {
-      z-index: 5;
-      width: 23%;
-      padding-bottom: 23%;
-      transform: translate3d(115%, -54%, 0);
-    }
-  }
+    }}
+    
 }
 
 @keyframes BorderRadius {
